@@ -7,7 +7,25 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form action="" method="POST">
+		<div>
+			<label for="name">Name</label>
+			<input id="name" type="text" placeholder="John Doe" min="3" max="50" required/>
+		</div>
+		<div>
+			<label for="portfolio">Portfolio</label>
+			<input id="portfolio" type="url" placeholder="Enter your url" required/>
+		</div>
+		<div>
+			<label for="favColor">Color</label>
+			<input id="favColor" type="color"/>
+		</div>
+		<div>
+			<label for="likeness">Likeness</label>
+			<input id="likeness" type="range" min="1" max="100" />
+		</div>
+		<button type="submit">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
